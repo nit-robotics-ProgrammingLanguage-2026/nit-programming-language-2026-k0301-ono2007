@@ -5,6 +5,6 @@ int main(void) {
     int i;
     i = 10;
     scanf("%d",&i);
-    printf("この結果は%dです。", i*2); 
+    printf("この結果は%fです。",i*1.1); 
     return 0;
 }

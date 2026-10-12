@@ -3,8 +3,8 @@
 int main(void) {
     /* 課題0301: prinfのカッコの中を記入して、変数iの中身を表示させてください */
     int i;
-    i = 10;
+    printf("整数を入力してください。\n");
     scanf("%d",&i);
-    printf("この結果は%fです。",i*1.1); 
+    printf("%dが入力されました。",i); 
     return 0;
 }

@@ -5,6 +5,6 @@ int main(void) {
     int i;
     printf("整数を入力してください。\n");
     scanf("%d",&i);
-    printf("%dが入力されました。",i); 
+    printf("%dが入力されました。\n",i); 
     return 0;
 }
